@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+<<<<<<< HEAD
     background: #1a1a2e;
     min-height: 100vh;
     padding: 20px;
@@ -14,10 +15,60 @@ body {
 
 .container {
     max-width: 1200px;
+=======
+<<<<<<< HEAD
+    background: #f5f5f5;
+=======
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+>>>>>>> f6861ce8f209d511627a1850ffccd32e5fef0165
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+<<<<<<< HEAD
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.warning-banner {
+    background: #ff4444;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.secure-banner {
+    background: #00C851;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+=======
+    max-width: 800px;
+>>>>>>> c9a5f8d488086f4c1dbc66564a78776525d0c0fd
     margin: 0 auto;
 }
 
 h1 {
+<<<<<<< HEAD
     text-align: center;
     margin-bottom: 30px;
     color: #00fff5;
@@ -163,10 +214,83 @@ button.danger:hover {
 .panel-content {
     padding: 15px;
     min-height: 100px;
+=======
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+>>>>>>> f6861ce8f209d511627a1850ffccd32e5fef0165
+}
+
+section {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 20px;
+<<<<<<< HEAD
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+=======
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+>>>>>>> f6861ce8f209d511627a1850ffccd32e5fef0165
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+<<<<<<< HEAD
+    border-bottom: 2px solid #eee;
+}
+
+/* Form Styles */
+=======
+    border-bottom: 2px solid #667eea;
+}
+
+/* Counter Section */
+.counter-display {
+    font-size: 80px;
+    font-weight: bold;
+    color: #667eea;
+    text-align: center;
+    padding: 20px;
+}
+
+.counter-section p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.counter-section button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 25px;
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.counter-section button:hover {
+    background: #ee5a5a;
+}
+
+/* Cookie Inspector */
+.cookie-list {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 15px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+>>>>>>> c9a5f8d488086f4c1dbc66564a78776525d0c0fd
     max-height: 200px;
     overflow-y: auto;
 }
 
+<<<<<<< HEAD
 .panel-content .empty {
     color: #666;
     font-style: italic;
@@ -319,10 +443,251 @@ textarea:focus {
 /* Notes Section */
 .notes-section textarea {
     margin-bottom: 15px;
+=======
+.cookie-item {
+    padding: 8px;
+    margin: 5px 0;
+    background: white;
+    border-radius: 4px;
+    border-left: 3px solid #667eea;
+}
+
+.cookie-name {
+    font-weight: bold;
+    color: #667eea;
+}
+
+.cookie-value {
+    color: #28a745;
+}
+
+.placeholder {
+    color: #999;
+    font-style: italic;
+}
+
+/* Cookie Creator Form */
+>>>>>>> f6861ce8f209d511627a1850ffccd32e5fef0165
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #333;
+}
+
+<<<<<<< HEAD
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #007bff;
+=======
+.form-group input[type="text"],
+.form-group input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-group input:focus {
+    border-color: #667eea;
+>>>>>>> f6861ce8f209d511627a1850ffccd32e5fef0165
+    outline: none;
+}
+
+.form-group small {
+    color: #999;
+    font-size: 12px;
+}
+
+<<<<<<< HEAD
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button[type="submit"]:hover {
+    background: #0056b3;
+}
+
+/* Comments Styles */
+.comment-card {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 4px solid #007bff;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.comment-header strong {
+    color: #333;
+}
+
+.comment-time {
+    color: #999;
+    font-size: 12px;
+}
+
+.comment-body {
+    color: #555;
+    line-height: 1.6;
+}
+
+.no-comments {
+    color: #999;
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+}
+
+/* Payload Section */
+.payload-section {
+    background: #fff3cd;
+    border: 2px solid #ffc107;
+}
+
+.payload-list {
+    margin-top: 15px;
+}
+
+.payload-item {
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.payload-item strong {
+    min-width: 150px;
+}
+
+.payload-item code {
+    flex: 1;
+    background: #f5f5f5;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+    word-break: break-all;
+}
+
+.payload-item button {
+    padding: 6px 15px;
+    background: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.payload-item button:hover {
+    background: #545b62;
+}
+
+/* Security Info */
+.security-info {
+    background: #d4edda;
+    border: 2px solid #28a745;
+}
+
+.security-info ul {
+    list-style-position: inside;
+    color: #155724;
+}
+
+.security-info li {
+    margin-bottom: 10px;
+}
+
+/* Code Compare */
+.code-compare {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.code-compare h2 {
+    grid-column: 1 / -1;
+}
+
+.code-block {
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.code-block.vulnerable {
+    background: #f8d7da;
+    border: 2px solid #dc3545;
+}
+
+.code-block.secure {
+    background: #d4edda;
+    border: 2px solid #28a745;
+}
+
+.code-block h3 {
+    margin-bottom: 10px;
+}
+
+.code-block pre {
+    background: rgba(0,0,0,0.05);
+    padding: 15px;
+    border-radius: 6px;
+    overflow-x: auto;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+/* Navigation */
+.nav-link {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #6c757d;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.nav-link:hover {
+    background: #545b62;
+>>>>>>> c9a5f8d488086f4c1dbc66564a78776525d0c0fd
 }
 
 /* Responsive */
 @media (max-width: 768px) {
+<<<<<<< HEAD
     .isolation-test {
         grid-template-columns: 1fr;
     }
@@ -330,4 +695,57 @@ textarea:focus {
     .storage-grid {
         grid-template-columns: 1fr;
     }
+=======
+    .code-compare {
+        grid-template-columns: 1fr;
+    }
+
+    .payload-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .payload-item code {
+        width: 100%;
+    }
+=======
+.checkbox-group label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+#cookieForm button {
+    width: 100%;
+    padding: 12px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#cookieForm button:hover {
+    background: #5a6fd6;
+}
+
+/* Notes Section */
+#notes {
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 14px;
+    resize: vertical;
+}
+
+#notes:focus {
+    border-color: #667eea;
+    outline: none;
+>>>>>>> f6861ce8f209d511627a1850ffccd32e5fef0165
+>>>>>>> c9a5f8d488086f4c1dbc66564a78776525d0c0fd
 }
